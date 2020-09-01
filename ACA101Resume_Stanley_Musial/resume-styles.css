@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    background-color:aquamarine;
+    justify-content: center;
+}
+section {
+    background-color: azure;
+    border: black 10pt;
+    width: 900px;
+    display: grid;
+    grid-template-rows: 25% 20% 20% 15% 20%;
+    grid-template-columns: 30% 35% 35%;
+}
+.kobe {
+    margin: 20px;
+    background-image: url("./Images/Kobe-Bryant.jpg");
+    background-size: cover;
+    background-position: center;
+    grid-row: 1;
+    grid-column: 1/2;
+    border: 3px black;
+}
+.resume {
+    border: 4px;
+    color: green;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 1;
+}
+.items1 {
+    margin-top: 50px;
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.summary {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: plum;
+    margin: 20px;
+    grid-row: 2;
+    grid-column: 1;
+}
+.education {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: plum;
+    margin: 20px;
+    grid-row: 3;
+    grid-column: 1;
+}
+.items3 {
+    grid-row: 3;
+    grid-column: 2/4;
+}
+.items2 {
+    grid-row: 2;
+    grid-column: 2/4;
+}
+.employmenthistory {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: plum;
+    grid-row: 4;
+    grid-column: 1;
+}
+.items4 {
+    grid-row: 4;
+    grid-column: 2/4;
+}
+h1 {
+    font-size: 40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    color: gray;
+    font-size: 12;
+}
+h4 {
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name {
+
+}
